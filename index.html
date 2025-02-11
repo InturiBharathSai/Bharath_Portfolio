@@ -488,10 +488,10 @@
 	document.querySelectorAll('.downloadCVBtn').forEach(function(button) {
     button.addEventListener('click', function() {
         const downloadCVButton = document.createElement('a');
-        downloadCVButton.href = 'Bharathsai Inturi_Resume.pdf';
+        downloadCVButton.href = 'BharathsaiInturi_CV.pdf';
         downloadCVButton.classList.add('btn', 'btn-primary', 'py-3', 'px-4');
         downloadCVButton.textContent = 'Download CV';
-        downloadCVButton.download = 'Bharathsai Inturi_Resume.pdf';
+        downloadCVButton.download = 'BharathsaiInturi_CV.pdf';
         document.body.appendChild(downloadCVButton);
         downloadCVButton.click();
         document.body.removeChild(downloadCVButton);
